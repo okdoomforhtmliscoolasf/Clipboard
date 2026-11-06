@@ -23,3 +23,6 @@ Open `index.html` in a modern browser. No build tools or server required.
 
 ## Storage
 Data is stored in this browser's localStorage. It does not sync between devices. Export a backup regularly.
+
+## Compatibility note
+The app includes a fallback ID generator for browsers where `crypto.randomUUID()` is unavailable, including some local-file contexts.
